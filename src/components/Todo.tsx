@@ -1,13 +1,15 @@
 
-interface Todo {
+export interface Todo {
   desc: string;
   completed: boolean;
 };
+interface TodoItemProps {
+  todo: Todo;
+}
 
-function Todo({ desc, completed }: Todo) {
+export default function TodoItem({ todo }: TodoItemProps) {
   return (
-    <span>{desc}</span>
+    <span>{todo.desc}</span>
   );
 
 }
-export default Todo
