@@ -6,10 +6,7 @@ interface Todo {
 
 function Todo({ desc, completed }: Todo) {
   return (
-    <ul>
-      <li>{desc}</li>
-      <li>{completed}</li>
-    </ul>
+    <span>{desc}</span>
   );
 
 }
