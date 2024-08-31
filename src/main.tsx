@@ -11,6 +11,7 @@ import Root from "./components/Root.tsx";
 import Lists from "./components/Lists.tsx";
 import About from "./components/About.tsx";
 import Login from "./components/Login.tsx";
+import Home from "./components/Home.tsx";
 import ErrorPage from './components/ErrorPage.tsx';
 
 
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <App />,
+        element: <Home />,
       },
       {
         path: "/lists",
