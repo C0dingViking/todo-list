@@ -1,4 +1,4 @@
-import Header from "./components/Header.tsx";
+//import Header from "./components/Header.tsx";
 import { Todo } from "./components/Todo.tsx";
 import TodoList from "./components/TodoList.tsx";
 
@@ -21,10 +21,9 @@ function App() {
     { desc: "Refactor code for better maintainability", completed: false }
   ];
   return (
-    <div className="pl-10 pr-10 pt-2 space-y-5 bg-background ">
-      <Header></Header>
+    <>
       <TodoList todos={todos}></TodoList>
-    </div>
+    </>
   );
 }
 

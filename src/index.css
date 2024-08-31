@@ -39,3 +39,11 @@ header h1 {
 .error-message p{
   font-size: 2em;
 }
+
+header {
+  border: 1px solid red;
+}
+
+div{
+  border: 1px solid red;
+}
