@@ -3,6 +3,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from './App.tsx'
+import ErrorPage from './components/ErrorPage.tsx';
 import './index.css'
 
 
@@ -16,9 +17,10 @@ import {
 const router = createBrowserRouter([
   {
     path:"/",
-    element: <App />
+    element: <App />,
+    errorElement: <ErrorPage />,
   }
-]) 
+]) ;
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

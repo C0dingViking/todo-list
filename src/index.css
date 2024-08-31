@@ -24,3 +24,18 @@ header h1 {
 #mainNav ul li {
   font-size: 1.15em;
 }
+
+.error-message {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-message h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.error-message p{
+  font-size: 2em;
+}

@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <h1 className="font-semibold"><a>To-Do List</a></h1>
+      <h1 className="font-semibold"><a href="/">To-Do List</a></h1>
       <nav id="mainNav">
         <ul>
           <li><a href="/">Home</a></li>
