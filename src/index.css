@@ -9,3 +9,18 @@
   --accent-color: #FFD6FF;
   --highlight-color: #B8C0FF;
 }
+
+header h1 {
+  font-size: 2.5em;
+}
+
+#mainNav ul{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}
+
+#mainNav ul li {
+  font-size: 1.15em;
+}
