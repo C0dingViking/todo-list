@@ -4,7 +4,7 @@ function About(){
             <div className="inline-block pr-28 font-mono space-y-4 about-child">
                 <h2 className="text-lg font-semibold">About us</h2>
                 <div className="pl-4 ml-4 rounded-3xl bg-secondary pt-2 pb-2 mt-1">
-                    <p>We are a team of 3 software engineering students working together to build a to-do list website.</p>
+                    <p>We are a team of three software engineering students working together to build a to-do list website.</p>
                 </div>
             </div>
             <div className="inline-block pr-28 font-mono space-y-4 about-child">
@@ -25,7 +25,15 @@ function About(){
                         Further, we are enhancing our GitHub skill, preparing us for a professional setting.  
                     </p>
                 </div>
-
+            </div>
+            <div className="inline-block pr-28 font-mono space-y-4 about-child">
+                <h2 className="text-lg font-semibold">TL;DR</h2>
+                <div className="pl-4 ml-4 rounded-3xl bg-secondary pt-2 pb-2 mt-1">
+                    <p>
+                        We're three software engineering students building a to-do list website to sharpen our skills in React, HTML, CSS, and JavaScript, 
+                        while also preparing for professional development with GitHub. 
+                    </p>
+                </div>
             </div>
         </div>
     )
