@@ -4,6 +4,7 @@ interface TodoListProps {
   todos: Todo[];
 }
 export default function TodoList({ todos }: TodoListProps) {
+
   const completed: Todo[] = todos.filter((item) => item.completed === true);
   const completed_items = displayList(completed);
 

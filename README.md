@@ -9,7 +9,6 @@ Repository for a simple To Do list website
 # Running the webpage
 
 - `npm install`
-- `npm install react-router-dom`
 - `npm run dev`
 
 # Members
