@@ -45,3 +45,30 @@ header h1 {
 .error-message p{
   font-size: 2em;
 }
+
+
+.about-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-child{
+  width: 50%;
+}
+
+.about-child:nth-child(even) {
+  align-self: flex-end;
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+.about-child:nth-child(odd) {
+  align-self: flex-start;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+
+.fill-screen {
+  min-height: 100vh;
+}
