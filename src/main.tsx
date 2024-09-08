@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/lists/:listId",
-        element: <TodoList todos={[]} />,
+        element: <TodoList />,
       },
       {
         path: "/about",

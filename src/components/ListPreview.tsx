@@ -1,5 +1,5 @@
 import { Todo } from "./Todo.tsx";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 export interface ListPreviewProps {
   listName: string,
   biggestTodos: Todo[];
@@ -25,16 +25,16 @@ export default function ListPreview({ listName, biggestTodos, allTodos }: ListPr
     </li>
   );
   return (
-    <div className="bg-highlight rounded-xl p-4 flex" onClick={handleNavigation}>
+    <div className="bg-highlight rounded-xl p-4 inline-flex" onClick={handleNavigation}>
       <span className="text-2xl font-bold">
         {listName}
       </span>
-      <div className="pl-4 ml-4 rounded-3xl bg-secondary px-2.5 font-semibold text-base">
+      <div className="pl-4 ml-4 rounded-3xl bg-secondary px-2.5 font-semibold text-base p-4">
         <ul>
           {todos}
         </ul>
       </div>
-    </div>
+    </div >
   );
 
 }
